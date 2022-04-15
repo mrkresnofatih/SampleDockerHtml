@@ -1,0 +1,40 @@
+.main-paragraph {
+    font-size: 24px;
+    font-family: 'Square Peg', cursive;
+    color: white;
+    margin: 4px 0;
+    text-align: center;
+}
+
+.main-title {
+    color: white;
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 4px 0;
+    text-align: center;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 deepskyblue;
+    background-size: 110px 200px;
+    background-repeat: repeat-x;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image {
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+* {
+    margin: 0;
+}
